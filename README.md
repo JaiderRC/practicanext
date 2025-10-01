@@ -1,36 +1,11 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ¿Qué ventajas tiene usar  React  frente a trabajar solo  con JavaScript puro para interfaces web? 
+Con React es más fácil hacer páginas porque todo se organiza en unas piezas (componentes) reutilizables y la página se actualiza sola cuando cambian los datos. Con JS puro es más enredado o engorroso y toca actualizar el HTML a mano o con la extensión.
+## ¿Qué beneficios ofrece  Next.js  al trabajar sobre React? 
+Next.js es como una mejora de lo que era react trae muchas cosas que react por si solo no trae esto no solo hace que sea mas rapido sino mas sencillo para nosotros.
+## ¿Qué significa que Next.js tenga un App Router y por qué se recomienda usarlo?
+Es la forma nueva de organizar páginas en next.js, a grandes rasgos se recomienda porque es más ordenado, moderno y ayuda a trabajar mejor los proyectos grandes.
+##  ¿Qué diferencia hay entre  client components  y  server  components  en Next.js?
+Client: funcionan en el navegador, sirven para botones, clics y cosas interactivas.
+Server: se hacen en el servidor y luego se mandan ya listos al navegador, son más rápidos porque no cargan tanto codigo javascript.
+##  ¿Por qué crees que en desarrollo profesional se usan  repositorios públicos o privados en GitHub  en lugar de solo trabajar en carpetas  locales? 
+Porque en GitHub el proyecto no se pierde, varias personas pueden trabajar juntas y queda guardado en la nube. Además, se puede mostrar el trabajo o mantenerlo privado si es de empresa.
