@@ -9,11 +9,11 @@ export default function SimpsonsPage() {
   const [index, setIndex] = useState(1);
 
   const handleNext = () => {
-    setIndex((prev) => (prev < 10 ? prev + 1 : 1));
+    setIndex((prev) => (prev < 1182 ? prev + 1 : 1));
   };
 
   const handlePrev = () => {
-    setIndex((prev) => (prev > 1 ? prev - 1 : 10));
+    setIndex((prev) => (prev > 1 ? prev - 1 : 1182));
   };
 
   return (
@@ -46,7 +46,7 @@ export default function SimpsonsPage() {
         value={index || 1}
         onChange={(e) => {
           const val = Number(e.target.value);
-          if (val >= 1 && val <= 10) setIndex(val);
+          if (val >= 1 && val <= 1182) setIndex(val);
         }}
         className="border-2 border-yellow-400 text-white text-xl rounded-lg px-3 py-1 focus:outline-none focus:ring-2 focus:ring-yellow-400 text-center w-20"
       />
